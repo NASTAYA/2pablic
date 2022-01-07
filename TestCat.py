@@ -15,7 +15,7 @@ def find_cat(item, el):
 
 for i in templates['results']:
     for j in i:
-        if i == 'species' and find_cat(i, j):
+        if j == 'species' and find_cat(i, j):
             obj_cat = Cat(i['name'], i['gender']['name'], i['age'])
             print(obj_cat.name)
             print(obj_cat.gender)
