@@ -12,8 +12,8 @@ figures = [rect_1, rect_2, square_1, square_2, circle_1, circle_2]
 
 for figure in figures:
     if isinstance(figure, Square):
-        print(f'Площадь квадрата {figure} {figure.get_area_square()}')
+        print(f'Площадь квадрата - {figure.get_area_square()}')
     elif isinstance(figure, Rectangle):
-        print(f'Площадь прямоугольника {figure} {figure.get_area()}')
+        print(f'Площадь прямоугольника - {figure.get_area()}')
     else:
-        print(f'Площадь круга {figure} {figure.get_area_circle()}')
+        print(f'Площадь круга - {figure.get_area_circle()}')
